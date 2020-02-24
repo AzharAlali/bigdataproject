@@ -1,5 +1,5 @@
-unsorted = open("01.txt", "r")
-sorted = open("02.txt", "w")
+unsorted = open("001.txt", "r")
+sorted = open("002.txt", "w")
 
 datalist = unsorted.readlines()
 datalist.sort()

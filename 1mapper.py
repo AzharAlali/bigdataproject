@@ -1,5 +1,5 @@
 i = open("books1.txt", "r")
-o = open("01.txt", "w")
+o = open("001.txt", "w")
 
 for line in i:
     datalist = line.strip().split("\t")
